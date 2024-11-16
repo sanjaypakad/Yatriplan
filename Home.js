@@ -1,17 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Home() {
     return (
-        <nav>
-            <h1>Yatriplan</h1>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/destinations">Destinations</Link></li>
-                <li><Link to="/booking">Booking</Link></li>
-            </ul>
-        </nav>
+        <div>
+            <h2>Welcome to Yatriplan</h2>
+            <p>Explore your next adventure with us!</p>
+            <img src="https://source.unsplash.com/featured/?travel,adventure" alt="Travel adventure" />
+        </div>
     );
 }
 
-export default Navbar;
+export default Home;
