@@ -52,7 +52,7 @@ body {
 }
 
 .hero-section {
-    background-image: url('path/to/hero-image.jpg');
+    background-image: url('https://source.unsplash.com/1600x900/?travel,nature');
     background-size: cover;
     background-position: center;
     color: #fff;
